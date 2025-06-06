@@ -1,0 +1,15 @@
+.swiper-button-disabled {
+  opacity: 0.6;
+}
+.client-logo-container {
+  width: max-content;
+  animation: marquee 120s infinite linear;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 24px));
+  }
+}
