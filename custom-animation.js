@@ -6,9 +6,9 @@ window.addEventListener("scroll", function () {
     header.classList.remove("scrolled");
   }
   if (window.scrollY > 300) {
-    goTopBtn.style.opacity = 1;
+    goTopBtn.style.visibility = "visible";
   } else {
-    goTopBtn.style.display = 0;
+    goTopBtn.style.visibility = "hidden";
   }
 });
 
