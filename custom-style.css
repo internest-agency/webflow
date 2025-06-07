@@ -24,3 +24,34 @@
     0% 100%
   );
 }
+
+.menu-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.menu-container.scrolled {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-icon {
+  width: 48px;
+  height: 48px;
+}
